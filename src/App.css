@@ -1,0 +1,97 @@
+body {
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(209, 160, 102);
+  background: linear-gradient(
+    0deg,
+    rgba(209, 160, 102, 1) 17%,
+    rgba(199, 107, 0, 1) 87%
+  );
+}
+
+.card-receita {
+  border-color: #58190a;
+  border-style: solid;
+  min-width: 1000px;
+}
+
+.header {
+  background-color: #feece0;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-pamonha {
+  width: 67%;
+}
+
+.imagem-pamonha {
+  width: 100%;
+  height: auto;
+}
+
+.titulo-pamonha {
+  color: #58190a;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.descricao-pamonha {
+  color: #58190a;
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.porcoes {
+  color: #9b6647;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.porcoes-title {
+  padding-right: 15px;
+}
+
+.buttonquantidade {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quantity {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  color: #feece0;
+  background-color: #9b6647;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.list-title-icon {
+  width: 37.93px;
+  height: 32px;
+}
+
+.list-title-text {
+  font-size: 30px;
+}
+
+.footer-list-items {
+  font-size: 22px;
+}
